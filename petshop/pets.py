@@ -1,7 +1,9 @@
 import datetime
 
 from flask import Blueprint
+
 from flask import render_template, request, redirect, url_for, jsonify
+
 from flask import g
 
 from . import db
